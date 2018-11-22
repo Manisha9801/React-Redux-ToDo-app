@@ -1,0 +1,11 @@
+.input-form {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 50px 350px 0px ;
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+
+.form-text {
+    text-align : left;
+}
