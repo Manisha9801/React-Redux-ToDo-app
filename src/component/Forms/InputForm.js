@@ -32,11 +32,11 @@ class InputForm extends Component {
         }
     }
 
-    // UNSAFE_componentWillReceiveProps(nextProps) {
-    //     // if(nextProps.match.url !== this.props.match.url) {
-    //     //     this.props.emptyFormField();
-    //     // }
-    // }
+    UNSAFE_componentWillReceiveProps(nextProps) {
+          if(nextProps.match.url !== this.props.match.url) {
+              this.props.emptyFormField();
+          }
+     }
 
     handleSubmit =(event) => {
         event.preventDefault();
